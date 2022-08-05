@@ -1,3 +1,13 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Merienda', cursive; ;
+  @font-face {
+    font-family: 'Merienda', cursive;;
+    src: url('https://fonts.googleapis.com/css2?family=Merienda&display=swap') 
+  };
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +45,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.q{
+  margin:0;
+  padding: 0;
+}
+.after-nav{
+  height: 640px;
+  background: url(./Component/FirstPage/desk-791178_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

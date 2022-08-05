@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    & .black-line{
+        width: 60px;
+        height: 1px;
+        background-color: #000;
+    }
+}
